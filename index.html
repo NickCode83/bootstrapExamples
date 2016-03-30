@@ -8,24 +8,26 @@
 </head>
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-        <a href="#" class="brand">Bootstrap实例大全</a>
-        <ul class="nav" id="myTab">
-            <li class="active"><a href="#home" data-toggle="tab"></a></li>
-            <li><a href="#detail" data-toggle="tab"></a></li>
-        </ul>
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <navbar-header>
+            <a href="#" class="navbar-brand">Bootstrap示例大全</a>
+        </navbar-header>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">示例1</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button class="btn btn-default" type="submit">搜索</button>
+            </form>
+        </div>
     </div>
 </div>
 
-<div class="tab-content">
-    <div class="tab-pane active" id="home">
-        <h1>Home</h1>
-    </div>
-    <div class="tab-pane" id="detail">
-        <h1>detail</h1>
-    </div>
-</div>
 
 <script src="js/jquery-1.12.2.js"></script>
 <script src="js/bootstrap.js"></script>
